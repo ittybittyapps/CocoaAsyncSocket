@@ -243,6 +243,8 @@ enum GCDAsyncSocketConfig
 + (uint16_t)portFromSockaddr4:(const struct sockaddr_in *)pSockaddr4;
 + (uint16_t)portFromSockaddr6:(const struct sockaddr_in6 *)pSockaddr6;
 
+- (void)ignore:(id)sender; // Intentionally not implemented
+
 @end
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
